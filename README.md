@@ -1,6 +1,12 @@
 # shop_ui
 
-A new Flutter project.
+finally found a way to create duplicate views and controllers in getx
+
+sample case
+
+product page => product => product details1 => product details2 => product details3
+
+with the same view and controller but different data stores use tag
 
 ## Getting Started
 
