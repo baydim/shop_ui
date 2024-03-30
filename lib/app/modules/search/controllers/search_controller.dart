@@ -1,11 +1,3 @@
 import 'package:get/get.dart';
 
-class SearchController extends GetxController {
-  //TODO: Implement SearchController
-
-  final count = 0.obs;
-
-
-
-  void increment() => count.value++;
-}
+class SearchController extends GetxController {}
