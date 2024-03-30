@@ -3,7 +3,6 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:shop_ui/app/routes/app_pages.dart';
 
 import '../../detail_product/controllers/detail_product_controller.dart';
 import '../../detail_product/views/detail_product_view.dart';
