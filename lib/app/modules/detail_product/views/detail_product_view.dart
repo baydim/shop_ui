@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -46,7 +47,9 @@ class DetailProductView extends StatelessWidget {
                               arguments: i.toString(),
                             );
                           } catch (e) {
-                            print(e);
+                            if (kDebugMode) {
+                              print(e);
+                            }
                           }
                         },
                       ),
